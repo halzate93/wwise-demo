@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2932040671	Play_music			\Default Work Unit\Play_music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	321387564	music	Y:\Desktop\Wwise-Demo-Audio\.cache\D5\{D51CFD51-E834-C43E-90CD-9C6D60B35FE1}.wem		\Interactive Music Hierarchy\Default Work Unit\music\music		366860
+

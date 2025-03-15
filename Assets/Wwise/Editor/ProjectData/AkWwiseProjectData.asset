@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: 60da4d5937500044bb0e4494903be6fa
     GuidInternal: 
-    m_lastTime: -8584595553529651070
+    m_lastTime: -8584595506773391354
     List: []
   - PhysicalPath: Virtual Acoustics/Factory Acoustic Textures.wwu
     PathAndIcons:
@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8584595563064775808
+    m_lastTime: -8584595506773375736
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: c7d520680ee92e4b8e0fb24cff5ce995
     GuidInternal: 
-    m_lastTime: -8584595553529584012
+    m_lastTime: -8584595506774409194
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -331,8 +331,22 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 9a06603c80045448aafd85338ea08c35
     GuidInternal: 
-    m_lastTime: -8584595553529509558
-    List: []
+    m_lastTime: -8584595506774434619
+    List:
+    - name: Default_Soundbank
+      guid: 513014d7974c904ea6299620cc3c9c57
+      id: 2218482606
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9a06603c80045448aafd85338ea08c35
+      - ElementName: Default_Soundbank
+        ObjectType: 7
+        guid: 513014d7974c904ea6299620cc3c9c57
+      Path: SoundBanks/Default Work Unit/Default_Soundbank
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
@@ -345,8 +359,25 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: e6233220ff04144f928fa8ef5b1b69dd
     GuidInternal: 
-    m_lastTime: -8584595553529553972
-    List: []
+    m_lastTime: -8584595506774035176
+    List:
+    - name: Play_music
+      guid: bdc461d7108ccb4b8854c0d1909e918c
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e6233220ff04144f928fa8ef5b1b69dd
+      - ElementName: Play_music
+        ObjectType: 3
+        guid: bdc461d7108ccb4b8854c0d1909e918c
+      Path: Events/Default Work Unit/Play_music
+      maxAttenuation: 0
+      maxDuration: 2.079161
+      minDuration: 2.079161
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -359,7 +390,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 3070ddd30f5de84da09440eadaabb289
     GuidInternal: 
-    m_lastTime: -8584595553529495392
+    m_lastTime: -8584595506774009360
     List: []
   - PhysicalPath: Game Parameters/Factory Soundseed Air Game Syncs.wwu
     PathAndIcons:
@@ -372,7 +403,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Factory Soundseed Air Game Syncs
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8584595563034775808
+    m_lastTime: -8584595506773993297
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -526,7 +557,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 4ec774de1e988042841a65867746b829
     GuidInternal: 
-    m_lastTime: -8584595553529523661
+    m_lastTime: -8584595506773981565
     List: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
@@ -540,7 +571,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 279fcabf3292d341a12b870e79920ad5
     GuidInternal: 
-    m_lastTime: -8584595553529537768
+    m_lastTime: -8584595506774021501
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
@@ -554,11 +585,11 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: 52f44d2710b660488a69dcc76ed7744c
     GuidInternal: 
-    m_lastTime: -8584595553529415165
+    m_lastTime: -8584595506773432079
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
-  AutoSyncSelection: 0
+  ExpandedFileSystemItemIds: 0600000007000000090000000a0000000b0000000c000000
+  ExpandedWaapiItemIds: 010000000600000007000000090000000a0000000b0000000c000000
+  AutoSyncSelection: 1
   autoPopulateEnabled: 1
   currentDataSource: 0
   CurrentPluginConfig: 

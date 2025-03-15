@@ -12,15 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82503f38e6304006b5ceb6b073ef247, type: 3}
   m_Name: AkWwiseInitializationSettings
   m_EditorClassIdentifier: 
-  PlatformSettingsNameList: []
-  PlatformSettingsList: []
+  PlatformSettingsNameList:
+  - Mac
+  - Windows
+  PlatformSettingsList:
+  - {fileID: 11400000, guid: c2c082b8db40c4371a478b831c4c93f4, type: 2}
+  - {fileID: 11400000, guid: f36abeeec66684afa8b83d77b5f3f5b2, type: 2}
   InvalidReferencePlatforms: []
   UserSettings:
     m_BasePath: Audio/GeneratedSoundBanks
     m_StartupLanguage: English(US)
     m_EngineLogging: 1
     m_IsDecodedBankEnabled: 0
-    m_IsAutoBankEnabled: 1
+    m_IsAutoBankEnabled: 0
     m_DefaultListenerScalingFactor: 1
     m_MaximumNumberOfPositioningPaths: 255
     m_CommandQueueSize: 262144
